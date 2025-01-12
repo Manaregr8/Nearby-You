@@ -3,7 +3,7 @@ import NotFound from "@/components/NotFound";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "404 Page | DEVRhylme Foundation",
+  title: "404 Page | Nearby You",
 };
 
 const ErrorPage = () => {
