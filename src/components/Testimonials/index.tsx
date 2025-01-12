@@ -5,31 +5,32 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Manik",
-    designation: "Co-Organiser, SheBuilds",
+    name: "Abhishek Kashyap",
+    designation: "Founder of Zeeloops",
     content:
-      "The event was a perfect platform for us to connect with like-minded individuals and showcase our expertise. The structure of the sessions, the audience engagement, and the seamless logistics made this collaboration worthwhile. Kudos to the organizing team for making it such a memorable experience!",
+      "The Zeeloops website is now responsive, fast, attractive, and SEO-optimized. The transformation has been remarkable, and the attention to detail has significantly improved our online presence. I'm thrilled with the results and the professionalism displayed throughout the project!",
     image: "/images/brands/manik.PNG",
     star: 5,
   },
   {
     id: 2,
-    name: "Deepesh Sugnani",
-    designation: "Partnerships & Operations Manager,IBW’24",
+    name: "Sachin Chawla",
+    designation: "Founder of Respikart | Surgikart",
     content:
-      "Collaborating on this event was an incredible experience. The organization, attention to detail, and professionalism displayed throughout the event were top-notch. Our team had the opportunity to engage with a highly enthusiastic audience, and the positive feedback we received was overwhelming. Looking forward to more successful partnerships in thefuture!",
+      "The team did an outstanding job optimizing our SEO, enhancing our website's UI/UX, and automating our Google My Business profiles. Their innovative WhatsApp marketing strategies have also boosted our customer engagement. It's been a game-changer for our business!",
     image: "/images/brands/deepek.PNG",
     star: 5,
   },
   {
     id: 3,
-    name: "Rida",
-    designation: "Partnership & Growth Manager, IndiaBlockchainMonth",
+    name: "Komal Chauhan",
+    designation: "Founder of TerxLabs",
     content:
-      "Our collaboration was a great success, thanks to the event's professionalism and seamless coordination. It allowed us to reach a wider audience and share our vision effectively. The exposure and networking opportunities we gained from this partnership were truly valuable. Well done to the entire team!",
+      "Our collaboration with this team has been invaluable. They helped us serve several clients effectively and made complex projects possible with their expertise and coordination. The partnership has been a significant factor in our collaborative success, Looking forward for more",
     image: "/images/brands/rida.PNG",
     star: 5,
   },
+  
 ];
 
 const Testimonials = () => {

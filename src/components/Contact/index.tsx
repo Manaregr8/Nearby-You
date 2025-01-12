@@ -57,6 +57,7 @@ const Contact = () => {
                     <p className="text-base text-body-color dark:text-dark-6">
                     <a href="mailto:manjeetdevelops@gmail.com">manjeetdevelops@gmail.com</a><br></br><br></br>
                     <a href="tel:+918506040783">+91-8506040783</a>
+                    <a href="tel:+917042696938">+91-7042696938</a>
                     </p>
                   </div>
                 </div>
