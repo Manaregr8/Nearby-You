@@ -2,11 +2,11 @@ export default function Head() {
   return (
     <>
       <title>
-      DEVRhylme Foundation
+      Nearby You
       </title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="Welcome to DevRhylme Foundation, an innovative AI startup at the forefront of Generative AI, OpenCV, and Web 3.0 technologies. We are committed to fostering a thriving developer community and organizing impactful events for diverse clients. Our mission is to build cutting-edge solutions while empowering organizations globally through collaborative innovation and knowledge-sharing." />
-      <link href="/images/logo/logo-icon.svg" />
+      <meta name="description" content="At Nearby You, we specialize in empowering businesses to grow, thrive, and succeed in today’s competitive landscape. As a full-service business growth consultancy, we provide a comprehensive suite of services tailored to your unique needs." />
+      <link href="/images/logo/icon.ico" type="icon" />
     </>
   );
 }
