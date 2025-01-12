@@ -2,7 +2,7 @@
 
 export async function GET(req) {
   try {
-    const response = await fetch('https://api.github.com/users/DEVRhylme-Foundation/repos');
+    const response = await fetch('https://api.github.com/users/Manaregr8/repos?sort=updated');
     console.log(response);
     
     if (!response.ok) {

@@ -13,17 +13,17 @@ const CallToAction = () => {
                     <span data-pointer="hover">What Are You Looking For?</span>
                     <span data-pointer="hover" className="text-3xl font-normal md:text-[40px]">
                       {" "}
-                      Our Projects?{" "}
+                      Let Us Handle Everything For You{" "}
                     </span>
                   </h2>
                   <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                    Explore our innovative projects, where cutting-edge technology meets practical solutions.
+                    Explore our Services, where cutting-edge technology meets practical solutions.
                   </p>
                   <Link
-                    href="/projects"
+                    href="tel:+918506040783"
                     className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                   >
-                    Our Projects
+                   Call Now
                   </Link>
                 </div>
               </div>

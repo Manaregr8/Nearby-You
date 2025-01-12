@@ -13,50 +13,38 @@ const Faq = () => {
           center
         />
 
-        <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
-          <div className="w-full px-4 lg:w-1/2">
-            <SingleFaq
-              question="What is the mission of the DevRhylme Foundation?"
-              answer="The DevRhylme Foundation's mission is to empower aspiring developers through
-training and resources in Web3, OpenCV, and Generative AI, fostering a strong
-tech community."
-            />
-            <SingleFaq
-              question="What kind of events does the foundation organize?"
-              answer="The foundation hosts workshops, webinars, hackathons, and collaborative
-projects focused on emerging technologies like blockchain, computer vision, and
-AI."
-            />
-            <SingleFaq
-              question="Who can join the DevRhylme Foundation?"
-              answer="Anyone interested in learning about Web3, OpenCV, or Generative AI can
-join—whether you are a student, professional, open-source contributor, or an
-experienced developer.
-"
-            />
-          </div>
+<div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
+  <div className="w-full px-4 lg:w-1/2">
+    <SingleFaq
+      question="What makes your website development services stand out?"
+      answer="Our website development services are designed to create fast, secure, and user-friendly websites that drive business growth. We specialize in responsive designs, SEO-friendly architecture, and integrating the latest technologies, ensuring your website attracts visitors and converts them into loyal customers."
+    />
+    <SingleFaq
+      question="How does your digital marketing strategy help businesses grow?"
+      answer="We provide tailored digital marketing strategies that include SEO, social media marketing, and email campaigns. By targeting the right audience with data-driven insights, we help improve your online visibility, drive quality traffic to your website, and generate more leads."
+    />
+    <SingleFaq
+      question="Can you help with creating a strong brand identity?"
+      answer="Yes, we excel in logo and branding design services. Whether you're starting fresh or rebranding, we craft compelling visuals and strategies that reflect your business values and make your brand memorable in a competitive market."
+    />
+  </div>
 
-          <div className="w-full px-4 lg:w-1/2">
-            <SingleFaq
-              question="Does the foundation offer mentorship opportunities?"
-              answer="Yes, DevRhylme Foundation provides mentorship from industry experts, helping
-members develop skills, work on projects, and navigate the tech landscape.
-"
-            />
-            <SingleFaq
-              question="How can I get involved with the foundation's projects?"
-              answer="You can get involved by attending events, participating in workshops, joining the
-foundation's online community, checking out their GitHub, or contributing to
-open-source projects they manage.
-"
-            />
-            <SingleFaq
-              question="Are there any fees to join or participate in the foundation's programs?"
-              answer="No, all resources, workshops, and events offered by the DevRhylme Foundation
-are free to ensure accessibility for everyone interested."
-            />
-          </div>
-        </div>
+  <div className="w-full px-4 lg:w-1/2">
+    <SingleFaq
+      question="Why is automation important for my business, and how can you help?"
+      answer="Automation streamlines repetitive tasks, reduces human error, and saves time. Our custom automation solutions are tailored to your business needs, helping you improve operational efficiency and focus on growth strategies."
+    />
+    <SingleFaq
+      question="How do your hosting and site maintenance services ensure reliability?"
+      answer="We offer secure web hosting and proactive site maintenance to keep your website running smoothly. Regular updates, backups, and performance monitoring ensure your site remains fast, secure, and accessible, minimizing downtime and enhancing user experience."
+    />
+    <SingleFaq
+      question="What are the benefits of your content management and email marketing services?"
+      answer="Our content management services keep your website updated with relevant and engaging content, while our email marketing campaigns nurture leads and improve customer engagement. Together, they help build lasting relationships with your audience and boost conversions."
+    />
+  </div>
+</div>
+
       </div>
 
       <div>

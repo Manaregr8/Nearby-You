@@ -20,19 +20,13 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
-    id: 5,
+    id: 4,
     title: "Contact",
     path: "/contact",
     newTab: false,
   },
   {
     id: 5,
-    title: "Event",
-    path: "/events",
-    newTab: false,
-  },
-  {
-    id: 6,
     title: "Pages",
     newTab: false,
     submenu: [
@@ -52,12 +46,6 @@ const menuData: Menu[] = [
         id: 63,
         title: "Contact Page",
         path: "/contact",
-        newTab: false,
-      },
-      {
-        id: 64,
-        title: "Event Page",
-        path: "/events",
         newTab: false,
       },
     ],

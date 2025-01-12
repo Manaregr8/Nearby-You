@@ -295,8 +295,7 @@ const Header = () => {
                   </span>
                 </button>
                 <Link
-                  href="tel:+918506040783
-                  " // Replace with your GitHub link
+                  href="tel:+918506040783" // Replace with your GitHub link
                   className={`buttonbg flex items-center gap-4 rounded-lg px-6 py-3 text-base font-medium duration-300 ease-in-out ${pathUrl !== "/" // Check if it's not the home page
                     ? "bg-green-500 text-white hover:bg-blue-600" // Blue base on other pages
                     : sticky
