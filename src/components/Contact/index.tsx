@@ -1,5 +1,4 @@
 import Form from "./form";
-
 const Contact = () => {
   const contactFormAccess = process.env.CONTACT_FORM_ACCESS;
   return (
@@ -36,7 +35,7 @@ const Contact = () => {
                       Our Location
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                    Lucknow
+                    Uttam nagar west, New Delhi - 110059
                     </p>
                   </div>
                 </div>
@@ -56,7 +55,8 @@ const Contact = () => {
                       How Can We Help?
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                    contact@devrhylme.org
+                    <a href="mailto:manjeetdevelops@gmail.com">manjeetdevelops@gmail.com</a><br></br><br></br>
+                    <a href="tel:+918506040783">+91-8506040783</a>
                     </p>
                   </div>
                 </div>

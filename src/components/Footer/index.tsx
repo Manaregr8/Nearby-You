@@ -175,31 +175,31 @@ const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="https://github.com/DEVRhylme-Foundation/DragGAN"
+                    href="https://www.zealoops.com/"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Drag-GAN
+                    Zealoops.com
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://github.com/DEVRhylme-Foundation/ForgeX"
+                    href="https://respikart.com/"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    ForgeX
+                    Respikart.com
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://github.com/DEVRhylme-Foundation/new-website"
+                    href="https://surgikartindia.com/"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Website 
+                    Surgikart.com
                   </a>
                 </li>
                 <li>
                   <Link
-                    href="/projects"
+                    href="https://github.com/Manaregr8?tab=repositories"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     More Projects
@@ -276,12 +276,12 @@ const Footer = () => {
                 <p className="text-base text-gray-7">
                   Designed and Developed by{" "}
                   <a
-                    href="https://github.com/DEVRhylme-Foundation"
+                    href="https://www.linkedin.com/in/manaregr8/"
                     rel="nofollow noopner noreferrer"
                     target="_blank"
                     className="text-gray-1 hover:underline"
                   >
-                    DEVRhylme Technical Team
+                    Nearby You Dev Team
                   </a>
                 </p>
               </div>

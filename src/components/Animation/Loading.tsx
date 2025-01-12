@@ -130,7 +130,7 @@ const Loading: React.FC = () => {
         </div>
         <div className="text-container h-12 relative overflow-hidden mb-5 w-48">
           <div className="loading-text complete absolute w-full text-center text-white text-sm uppercase tracking-tight opacity-0">
-            Welcome to DevRhylme
+            Welcome to Nearby You
           </div>
         </div>
         <div className="percentage fixed bottom-8 right-8 text-white font-bold text-9xl opacity-10">0</div>
