@@ -1,0 +1,40 @@
+.eventCards{
+  width: 100%;
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+}
+.gridCards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.bannerSize{
+  width: 100%;
+  max-width: 1350px;
+  margin: auto;
+}
+.gradientBorder{
+  border-bottom: 1px solid;  /* Adjust thickness */
+  border-image: linear-gradient(to right,transparent, rgb(227,232,237),transparent) 1;
+
+}
+@media (max-width:1171px){
+  .gridCards{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width:956px){
+  .gridCards{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width:549px){
+  .gridCards{
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width:443px){
+  .eventCards{
+  }
+  }
