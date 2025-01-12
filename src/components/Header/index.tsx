@@ -54,7 +54,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4  flex items-center justify-between">
-            <div className="w-60 max-w-full px-4">
+            <div className="w-80 max-w-full px-4">
               <Link
                 href="/"
                 className={`logo navbar-logo block w-full ${sticky ? "py-2" : "py-9"
@@ -274,6 +274,8 @@ const Header = () => {
                   className="flex h-8 w-8 items-center justify-center text-body-color duration-300 dark:text-white"
                 >
                   <span>
+
+                    
                     <svg
                       viewBox="0 0 16 16"
                       className="hidden h-[22px] w-[22px] fill-current dark:block"
@@ -293,32 +295,16 @@ const Header = () => {
                   </span>
                 </button>
                 <Link
-                  href="https://github.com/DEVRhylme-Foundation" // Replace with your GitHub link
-                  className={`flex items-center gap-4 rounded-lg px-6 py-3 text-base font-medium duration-300 ease-in-out ${pathUrl !== "/" // Check if it's not the home page
-                    ? "bg-blue-500 text-white hover:bg-blue-600" // Blue base on other pages
+                  href="tel:+918506040783
+                  " // Replace with your GitHub link
+                  className={`buttonbg flex items-center gap-4 rounded-lg px-6 py-3 text-base font-medium duration-300 ease-in-out ${pathUrl !== "/" // Check if it's not the home page
+                    ? "bg-green-500 text-white hover:bg-blue-600" // Blue base on other pages
                     : sticky
-                      ? "bg-primary hover:bg-primary/90 text-white"
-                      : "bg-white/10 text-white hover:bg-white/20"
+                      ? "bg-green-500 hover:bg-primary/90 text-white"
+                      : "bg-green-500 text-white hover:bg-white/20"
                     }`} style={{ marginLeft: '15px' }}
                 >
-                  <svg
-                    className="fill-current"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g clipPath="url(#clip0_2005_10818)">
-                      <path d="M12 0.674805C5.625 0.674805 0.375 5.8498 0.375 12.2998C0.375 17.3998 3.7125 21.7498 8.3625 23.3248C8.9625 23.4373 9.15 23.0623 9.15 22.7998C9.15 22.5373 9.15 21.7873 9.1125 20.7748C5.8875 21.5248 5.2125 19.1998 5.2125 19.1998C4.6875 17.8873 3.9 17.5123 3.9 17.5123C2.85 16.7623 3.9375 16.7623 3.9375 16.7623C5.1 16.7998 5.7375 17.9623 5.7375 17.9623C6.75 19.7623 8.475 19.2373 9.1125 18.8998C9.225 18.1498 9.525 17.6248 9.8625 17.3248C7.3125 17.0623 4.575 16.0498 4.575 11.6248C4.575 10.3498 5.0625 9.3373 5.775 8.5498C5.6625 8.2873 5.25 7.0873 5.8875 5.4748C5.8875 5.4748 6.9 5.1748 9.1125 6.6748C10.05 6.4123 11.025 6.2623 12.0375 6.2623C13.05 6.2623 14.0625 6.3748 14.9625 6.6748C17.175 5.2123 18.15 5.4748 18.15 5.4748C18.7875 7.0498 18.4125 8.2873 18.2625 8.5498C19.0125 9.3373 19.4625 10.3873 19.4625 11.6248C19.4625 16.0498 16.725 17.0623 14.175 17.3248C14.5875 17.6998 14.9625 18.4498 14.9625 19.4998C14.9625 21.0748 14.925 22.3123 14.925 22.6873C14.925 22.9873 15.15 23.3248 15.7125 23.2123C20.2875 21.6748 23.625 17.3623 23.625 12.2248C23.5875 5.8498 18.375 0.674805 12 0.674805Z" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_2005_10818">
-                        <rect width="24" height="24" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  Our Github
+                 Call Now <svg className="iconCall" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 509.45"><path fill="#fff" fill-rule="nonzero" d="M141 209.38c17.22 31.02 37.04 60.82 62.81 88.02 25.83 27.33 57.94 52.21 99.56 73.45 3.08 1.51 6.01 1.51 8.61.47 3.97-1.51 7.99-4.78 11.97-8.75 3.07-3.07 6.9-7.99 10.92-13.38 15.99-21.05 35.81-47.16 63.76-34.1.61.28 1.09.61 1.7.89l93.27 53.64c.28.14.61.47.9.61 12.3 8.47 17.36 21.52 17.5 36.28 0 15.04-5.53 31.97-13.67 46.26-10.74 18.87-26.58 31.35-44.84 39.63-17.35 7.99-36.7 12.3-55.29 15.04-29.18 4.3-56.51 1.56-84.47-7.05-27.34-8.46-54.86-22.42-84.94-41l-2.23-1.42c-13.81-8.61-28.71-17.83-43.32-28.71-53.59-40.44-108.12-98.8-143.64-163.03C9.81 212.31-6.47 154.09 2.43 98.61 7.34 68.2 20.4 40.53 43.15 22.27 62.97 6.28 89.69-2.46 124.26.61c3.98.28 7.52 2.6 9.37 6.01l59.78 101.07c8.75 11.35 9.84 22.56 5.06 33.82-3.97 9.22-11.96 17.68-22.89 25.63-3.22 2.74-7.05 5.53-11.07 8.47-13.38 9.69-28.57 20.9-23.36 34.1l-.15-.33z"/></svg>
                 </Link>
 
               </div>

@@ -1,17 +1,18 @@
-
-
-.logo{
-  margin: 5px 5px 5px 0;
+.buttonbg{
+  background-color: rgb(2, 165, 2);
+}
+.iconCall{
+  width: 20px;
 }
 @media (max-width:960px){
   .logo{
-    width: 170px;
+    width: 200px;
     height: fit-content;
   }
 }
   @media (max-width:400px){
   .logo{
-    width: 150px;
+    width: 190px;
     margin: 5px 5px 5px 0;
   }
 }

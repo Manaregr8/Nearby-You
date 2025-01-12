@@ -13,12 +13,16 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 data-pointer="hover" className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  DevRhylme Foundation
+                  NEARBY YOU (Us)
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                Welcome to DevRhylme Foundation, an innovative AI startup at the forefront of Generative AI, OpenCV, and Web 3.0 technologies. We are committed to fostering a thriving developer community and organizing impactful events for diverse clients. Building cutting-edge solutions through collaborative innovation and knowledge-sharing.
+                At Nearby You, we specialize in empowering businesses to grow, thrive, and succeed in today’s competitive landscape. As a full-service business growth consultancy, we provide a comprehensive suite of services tailored to your unique needs.
+
+Our expertise spans across website development, digital marketing, search engine optimization (SEO), social media marketing, graphic design, and more. Whether you're looking to establish a strong online presence, enhance your brand identity, or optimize your digital strategies, we are your trusted partner every step of the way.
                   <br /> <br />
-                  Our mission is to empower developers and organizations with the technology to innovate and excel in AI, computer vision, and generative AI.
+                 We aim to be a partner in your success, helping you unlock new opportunities and achieve your business goals.
+
+Let’s grow together. Welcome to Nearby You, where your business comes first.
                 </p>
 
                 <a
@@ -48,7 +52,7 @@ const About = () => {
                 <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                   <div className="relative mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
                     <Image
-                      src="/images/about/about-image-02.webp"
+                      src="/images/about/about-image-02.png"
                       alt="about image"
                       fill
                       className="h-full w-full object-cover object-center"
@@ -58,7 +62,7 @@ const About = () => {
                   <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
                     <div>
                       <span className="block text-5xl font-extrabold text-white">
-                        01
+                        04
                       </span>
                       <span className="block text-base font-semibold text-white">
                         We have
