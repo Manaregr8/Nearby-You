@@ -23,6 +23,9 @@ const Footer = () => {
               <p className="mb-8 max-w-[270px] text-base text-gray-7">
               Our mission is to build cutting-edge solutions while empowering organizations globally through collaborative innovation and knowledge-sharing.
               </p>
+              <p className="mb-8 max-w-[270px] text-base text-gray-7">
+              Call Now - 8506040783
+              </p>
               <div className="-mx-3 flex items-center">
                 {/* <a
                   aria-label="social link"
@@ -232,10 +235,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contact"
+                    href="tel:+918506040783"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Support
+                    Call Now - 8506040783
                   </Link>
                 </li>
               </ul>
