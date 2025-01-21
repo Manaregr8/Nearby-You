@@ -25,7 +25,7 @@ const Hero = () => {
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
                     <Link
-                      href="https://github.com/DEVRhylme-Foundation"
+                      href="https://wa.me/8506040783?text=I'm%20interested%20in%20your%20Website%20Development%20Services"
                       target="_blank"
                       className="stylesLink flex items-center gap-4 rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-black"
                     >
